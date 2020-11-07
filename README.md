@@ -14,7 +14,9 @@ Predictive Policing: The Future of Law Enforcement
 
 ## Outline of Final Design
 Pandas - clean data
+
 Tableau - visualizations
+
 Machine Learning - project next few years
 
 ## Link to GitHub Repository
