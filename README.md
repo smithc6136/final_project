@@ -1,5 +1,5 @@
-# Final Project 
-## Mark Hirschenberger, Mary Whistler, Zach Herington, Catherine Smith
+# Final Project: Homicide Analysis and Predictions
+## Group Members: Mark Hirschenberger, Mary Whistler, Zach Herington, Catherine Smith
 
 ## Chosen Topic and Rationale
 Homicide Reports - looking for relationships between homicide rates and other societal influences
