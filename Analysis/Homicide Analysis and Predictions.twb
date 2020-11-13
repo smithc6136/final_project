@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1018.2303                               -->
+<workbook original-version='18.1' source-build='2020.3.2 (20203.20.1018.2303)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cleaned_database' inline='true' name='federated.0pddsud1n66njr1balol30r5za8t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_database' name='textscan.07xedu10z6v23u1a6krz90byz9dc'>
+            <connection class='textscan' directory='/Users/CatherineSmith 1/Repositories/final_project/Resources' filename='cleaned_database.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.07xedu10z6v23u1a6krz90byz9dc' name='cleaned_database.csv' table='[cleaned_database#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Record ID' ordinal='0' />
+            <column datatype='string' name='Agency Code' ordinal='1' />
+            <column datatype='string' name='Agency Name' ordinal='2' />
+            <column datatype='string' name='Agency Type' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='State' ordinal='5' />
+            <column datatype='integer' name='Year' ordinal='6' />
+            <column datatype='string' name='Month' ordinal='7' />
+            <column datatype='integer' name='Incident' ordinal='8' />
+            <column datatype='string' name='Crime Type' ordinal='9' />
+            <column datatype='string' name='Crime Solved' ordinal='10' />
+            <column datatype='string' name='Victim Sex' ordinal='11' />
+            <column datatype='integer' name='Victim Age' ordinal='12' />
+            <column datatype='string' name='Victim Race' ordinal='13' />
+            <column datatype='string' name='Victim Ethnicity' ordinal='14' />
+            <column datatype='string' name='Perpetrator Sex' ordinal='15' />
+            <column datatype='integer' name='Perpetrator Age' ordinal='16' />
+            <column datatype='string' name='Perpetrator Race' ordinal='17' />
+            <column datatype='string' name='Perpetrator Ethnicity' ordinal='18' />
+            <column datatype='string' name='Relationship' ordinal='19' />
+            <column datatype='string' name='Weapon' ordinal='20' />
+            <column datatype='string' name='Record Source' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.07xedu10z6v23u1a6krz90byz9dc' name='cleaned_database.csv' table='[cleaned_database#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Record ID' ordinal='0' />
+            <column datatype='string' name='Agency Code' ordinal='1' />
+            <column datatype='string' name='Agency Name' ordinal='2' />
+            <column datatype='string' name='Agency Type' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='State' ordinal='5' />
+            <column datatype='integer' name='Year' ordinal='6' />
+            <column datatype='string' name='Month' ordinal='7' />
+            <column datatype='integer' name='Incident' ordinal='8' />
+            <column datatype='string' name='Crime Type' ordinal='9' />
+            <column datatype='string' name='Crime Solved' ordinal='10' />
+            <column datatype='string' name='Victim Sex' ordinal='11' />
+            <column datatype='integer' name='Victim Age' ordinal='12' />
+            <column datatype='string' name='Victim Race' ordinal='13' />
+            <column datatype='string' name='Victim Ethnicity' ordinal='14' />
+            <column datatype='string' name='Perpetrator Sex' ordinal='15' />
+            <column datatype='integer' name='Perpetrator Age' ordinal='16' />
+            <column datatype='string' name='Perpetrator Race' ordinal='17' />
+            <column datatype='string' name='Perpetrator Ethnicity' ordinal='18' />
+            <column datatype='string' name='Relationship' ordinal='19' />
+            <column datatype='string' name='Weapon' ordinal='20' />
+            <column datatype='string' name='Record Source' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Record ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Record ID]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Record ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency Code]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Agency Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency Name]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Agency Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Agency Type]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Agency Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Incident]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Incident</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Crime Type]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Crime Type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime Solved</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Crime Solved]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Crime Solved</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Victim Sex]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Victim Sex</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victim Age]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Victim Age</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Victim Race]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Victim Race</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Ethnicity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Victim Ethnicity]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Victim Ethnicity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Perpetrator Sex]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Perpetrator Sex</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Perpetrator Age]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Perpetrator Age</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Perpetrator Race]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Perpetrator Race</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Ethnicity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Perpetrator Ethnicity]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Perpetrator Ethnicity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relationship</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Relationship]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Relationship</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weapon</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Weapon]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Weapon</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Record Source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Record Source]</local-name>
+            <parent-name>[cleaned_database.csv]</parent-name>
+            <remote-alias>Record Source</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='integer' name='[Record ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='cleaned_database.csv' datatype='table' name='[__tableau_internal_object_id__].[cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='State, City'>
+          <field>[State]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='cleaned_database.csv' id='cleaned_database.csv_B9C50DADA6A246FC97E65147626A7627'>
+            <properties context=''>
+              <relation connection='textscan.07xedu10z6v23u1a6krz90byz9dc' name='cleaned_database.csv' table='[cleaned_database#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Record ID' ordinal='0' />
+                  <column datatype='string' name='Agency Code' ordinal='1' />
+                  <column datatype='string' name='Agency Name' ordinal='2' />
+                  <column datatype='string' name='Agency Type' ordinal='3' />
+                  <column datatype='string' name='City' ordinal='4' />
+                  <column datatype='string' name='State' ordinal='5' />
+                  <column datatype='integer' name='Year' ordinal='6' />
+                  <column datatype='string' name='Month' ordinal='7' />
+                  <column datatype='integer' name='Incident' ordinal='8' />
+                  <column datatype='string' name='Crime Type' ordinal='9' />
+                  <column datatype='string' name='Crime Solved' ordinal='10' />
+                  <column datatype='string' name='Victim Sex' ordinal='11' />
+                  <column datatype='integer' name='Victim Age' ordinal='12' />
+                  <column datatype='string' name='Victim Race' ordinal='13' />
+                  <column datatype='string' name='Victim Ethnicity' ordinal='14' />
+                  <column datatype='string' name='Perpetrator Sex' ordinal='15' />
+                  <column datatype='integer' name='Perpetrator Age' ordinal='16' />
+                  <column datatype='string' name='Perpetrator Race' ordinal='17' />
+                  <column datatype='string' name='Perpetrator Ethnicity' ordinal='18' />
+                  <column datatype='string' name='Relationship' ordinal='19' />
+                  <column datatype='string' name='Weapon' ordinal='20' />
+                  <column datatype='string' name='Record Source' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_database' name='federated.0pddsud1n66njr1balol30r5za8t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pddsud1n66njr1balol30r5za8t'>
+            <column datatype='integer' name='[Record ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Weapon]' role='dimension' type='nominal' />
+            <column-instance column='[Record ID]' derivation='Count' name='[cnt:Record ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Weapon]' derivation='None' name='[none:Weapon:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0pddsud1n66njr1balol30r5za8t].[none:Weapon:nk]' />
+              <wedge-size column='[federated.0pddsud1n66njr1balol30r5za8t].[cnt:Record ID:qk]' />
+              <size column='[federated.0pddsud1n66njr1balol30r5za8t].[cnt:Record ID:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CCDD54A4-024E-4C92-A2F9-315A61F7BDBC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pddsud1n66njr1balol30r5za8t].[none:Weapon:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0pddsud1n66njr1balol30r5za8t].[cnt:Record ID:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0pddsud1n66njr1balol30r5za8t].[none:Record ID:ok]</field>
+            <field>[federated.0pddsud1n66njr1balol30r5za8t].[none:Weapon:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F405D4C4-8DBF-43EB-99E5-1F7390A609AB}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='328' name='Sheet 1' width='328'>
+      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
+      lS4jBBK2sUaV3ddGSuYsZUdTRJ/Zy3N+yhWBREF4NZbhYFCh4BZ17mhibREEEsXh1mAmBrGj
+      KcKzp5GEQMIRVjAlFS2aVgzDwaA6d0QUCgYJIu6IQMI1rI82nhsZ1lh0VmM3o0mvj0dnk/4s
+      KWkKHApuWfcaIUQ+CCQAGGxw+gIAwK0IJAAYEEgAMCCQAGBAIAHAgEACgAGBBAADAgkABgQS
+      AAwIJAAYEEgAMCCQAGBAIAHAgEACgAGBBAADAgkABgQSAAwIJAAYEEgAMCCQAGBAIAHAgEAC
+      gAGBBAADAgkABgQSAAwIJAAYEEgAMCCQAGBAIAHAgEACgAGBBAADAgkABgQSAAwIJAAYEEgA
+      MCCQAGBAIAHAgEACgAGBBAADAgkABgQSAAwIJAAYEEgAMCCQAGBAIAHAgEACgAGBBAADAgkA
+      BgQSAAwIJAAYEEgAMCCQAGBAIAHAgEACgAGBBAADAgkABgQSAAwIJAAYEEgAMCCQAGBAIAHA
+      gEACgAGBBAADAgkABgQSAAwIJAAYEEgAMCCQAGBAIAHAgEACgAGBBAADAgkABv8PN0XMbwiS
+      mWEAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
