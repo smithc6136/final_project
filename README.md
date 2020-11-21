@@ -45,4 +45,5 @@ Machine Learning - project homicide rates 2015-2019
 ## Link to GitHub Repository
 https://github.com/smithc6136/final_project
 
-## Link to GitHub Deployment
+## Link to GitHub Pages
+https://smithc6136.github.io/final_project/HTML/index.html
