@@ -1,6 +1,9 @@
 # Final Project: Homicide Analysis and Predictions
 ## Group Members: Mark Hirschenberger, Mary Whistler, Zach Herington, Catherine Smith
 
+## Link to GitHub Pages
+https://smithc6136.github.io/final_project/HTML/index.html
+
 ## Chosen Topic and Rationale
 Homicide Reports 1990-2014
 
@@ -40,10 +43,3 @@ Tableau - visualizations
 Machine Learning - project homicide rates 2015-2019
 
 ![MachineLearning](ReadMe/MachineLearning.png)
-
-
-## Link to GitHub Repository
-https://github.com/smithc6136/final_project
-
-## Link to GitHub Pages
-https://smithc6136.github.io/final_project/HTML/index.html
