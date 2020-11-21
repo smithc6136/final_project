@@ -2,12 +2,8 @@
 ## Group Members: Mark Hirschenberger, Mary Whistler, Zach Herington, Catherine Smith
 
 ## Chosen Topic and Rationale
-Homicide Reports 1990-2014
-
-We were looking to get a better understanding of homicide trends in the United States. Most people have an idea of the crime rate based off of anecdotal evidence, but we wanted to see what has occurred over time and where we see it going in the future.
-
-## Key Tools
-Python (pandas, sklearn), Tableau, HTML/CSS
+Homicide Reports - looking for relationships between homicide rates and other societal influences
+(drug use, industries, gender, graduation rate)
 
 ## Description of and Link to Data
 https://www.kaggle.com/murderaccountability/homicide-reports
@@ -19,20 +15,13 @@ Predictive Policing: The Future of Law Enforcement
 * https://cloudblogs.microsoft.com/industry-blog/government/2016/03/03/predictive-policing-the-future-of-law-enforcement/
 
 ## Outline of Final Design
-Pandas - clean data and perform basic analysis
-![pandas](pandas.png)
+Pandas - clean data
 
 Tableau - visualizations
-![Geographic](geographic.png)
-![Weapon](weapon.png)
-![Agency](agency.png)
-![MurderCount](MurderCount.png)
-![AgeDif](AgeDif.png)
 
-Machine Learning - project homicide rates 2015-2019
-![MachineLearning](MachineLearning.png)
+Machine Learning - project next few years
 
 ## Link to GitHub Repository
 https://github.com/smithc6136/final_project
 
-## Link to GitHub Deployment
+## Link to Heroku Deployment
