@@ -20,17 +20,27 @@ Predictive Policing: The Future of Law Enforcement
 
 ## Outline of Final Design
 Pandas - clean data and perform basic analysis
+
 ![pandas](pandas.png)
 
+
 Tableau - visualizations
+
 ![Geographic](geographic.png)
+
 ![Weapon](weapon.png)
+
 ![Agency](agency.png)
+
 ![MurderCount](MurderCount.png)
+
 ![AgeDif](AgeDif.png)
 
+
 Machine Learning - project homicide rates 2015-2019
+
 ![MachineLearning](MachineLearning.png)
+
 
 ## Link to GitHub Repository
 https://github.com/smithc6136/final_project
